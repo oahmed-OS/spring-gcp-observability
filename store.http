@@ -1,0 +1,8 @@
+### GET Store Hours
+GET http://localhost:8080/store/hours
+
+### GET Store Products
+GET http://localhost:8080/store/products
+
+### Get Warehouse Stock
+GET http://localhost:8081/warehouse/stock
