@@ -15,9 +15,9 @@ public class WarehouseClientConfig {
     }
 
     @Bean
-    public RestClient warehouseClient() {
+    public RestClient warehouseClient(RestClient.Builder builder) {
         String url = this.baseUrl + "/warehouse";
-        return RestClient.builder()
+        return builder
                 .baseUrl(url)
                 .build();
     }

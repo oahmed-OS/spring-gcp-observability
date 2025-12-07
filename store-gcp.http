@@ -1,8 +1,0 @@
-### [Store] GET Hours
-GET https://store-service-53995694857.us-central1.run.app/store/hours
-
-### [Store] GET Products
-GET https://store-service-53995694857.us-central1.run.app/store/products
-
-### [Warehouse] Get Stock
-GET https://warehouse-service-53995694857.us-central1.run.app/warehouse/stock
