@@ -1,6 +1,5 @@
 package com.oahmed.storeservice;
 
-import io.micrometer.core.annotation.Timed;
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.MDC;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -20,7 +19,6 @@ public class StoreController {
         this.warehouseService = warehouseService;
     }
 
-    @Timed
     @GetMapping("/hours")
     public String getHours() {
         log.info("Getting hours");
